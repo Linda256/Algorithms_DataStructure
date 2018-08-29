@@ -1,3 +1,5 @@
+const swap = require('./swap.js');
+
 const BubbleSort = function(arr){
   // loop through the arr
       // curr = i;
@@ -15,16 +17,10 @@ const BubbleSort = function(arr){
   return arr;
 }
 
-function swap(i,j,arr) {
-  let temp = arr[i];
-  arr[i] = arr[j];
-  arr[j] = temp;
-}
-
 let arr = [7,8,5,13,4,6];
 BubbleSort(arr);
 console.log(arr);
 
 //Time complexity:
-// Worst Case: O(n*n) Best: O(n) Average: O(n*n)
+// Worst: O(n*n) Best: O(n) Average: O(n*n)
 //Stable: Yes

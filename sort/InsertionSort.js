@@ -1,3 +1,5 @@
+var swap =require("./swap.js");
+
 const InsertionSort = function(arr){
   //loop through arr start with index 1;
   //   curr index = i;
@@ -18,12 +20,6 @@ const InsertionSort = function(arr){
     }
   }
   return arr;
-}
-
-function swap(i,j,arr) {
-  let temp = arr[i];
-  arr[i] = arr[j];
-  arr[j] = temp;
 }
 
 let arr = [100,7,8,5,13,4,6];
