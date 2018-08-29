@@ -29,3 +29,7 @@ function swap(i,j,arr) {
 let arr = [100,7,8,5,13,4,6];
 InsertionSort(arr);
 console.log(arr);
+
+//Time complexity:
+// Worst: O(n*n) Best: O(n) Average: O(n*n)
+//Stable: Yes
