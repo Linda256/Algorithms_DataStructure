@@ -1,0 +1,27 @@
+{
+  "name": "algorithms_datastructure",
+  "version": "1.0.0",
+  "description": "Data Structure and Algorithms in JavaScript",
+  "main": "binarySearch.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Linda256/Algorithms_DataStructure.git"
+  },
+  "keywords": [
+    "data",
+    "structure",
+    "algorithms"
+  ],
+  "author": "Linda Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Linda256/Algorithms_DataStructure/issues"
+  },
+  "homepage": "https://github.com/Linda256/Algorithms_DataStructure#readme",
+  "dependencies": {
+    "jest": "^23.5.0"
+  }
+}
